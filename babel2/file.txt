@@ -1,0 +1,7 @@
+{
+   "Author" : "Antoine de Saint-Exup\u00e9ry",
+   "Examplary" : 3,
+   "Gender" : "only2:moyai:",
+   "IssueDate" : 1943,
+   "Title" : "Le Petit Prince"
+}
