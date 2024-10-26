@@ -6,7 +6,7 @@
 class Book {
 private:
     std::string gender;
-    std::string title;  // Nommage correct pour les membres privés
+    std::string title;  // Nommage correct pour les membres (privés pas de majuscule au début)
     std::string author; 
     int issueDate;
     int examplary;
@@ -62,6 +62,7 @@ public:
     {
         return this->examplary;
     }
+
     int getIssueDate()
     {
         return this->issueDate;
@@ -92,17 +93,16 @@ int main() {
 
 
 
-
+    // GPT !!!!!!!!!!
+    
     std::ofstream file_id;
     file_id.open("file.txt");
-
-
-
+    
     Json::StyledWriter styledWriter;
     file_id << styledWriter.write(jsonOutput);
 
     file_id.close();
-
+    // GPT !!!!!!!!!!!
 
     return 0;
 }
